@@ -1,0 +1,53 @@
+.why {
+  padding-bottom: 30px;
+}
+
+.block {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 63%;
+}
+
+.glow::before,
+.glow::after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  border-radius: 20px;
+  background: linear-gradient(
+    -45deg,
+    #00ff66,
+    #00ffff,
+    #ff00ff,
+    #ff0099,
+    #099fff
+  );
+  background-size: 400%;
+  height: calc(100% + 5px);
+  width: calc(100% + 5px);
+  z-index: -1;
+  animation: change 40s linear infinite;
+}
+
+@keyframes change{
+   0%{
+      background-position: 0 0;
+   }
+   50%{
+      background-position: 400% 0;
+   }
+   100%{
+      background-position: 0 0;
+   }
+}
+
+.glow::after{
+   filter: blur(40px);
+   opacity: .5;
+}
+
+
+.why1 {
+}
