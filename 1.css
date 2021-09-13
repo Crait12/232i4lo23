@@ -1,3 +1,70 @@
+body {
+   margin: 0;
+   background-color:#191919;
+   min-height:100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: Helvetica,Sans-serif;
+ }
+ a {
+   text-decoration:none;
+   color:#FFF;
+ }
+ .rainbow-button {
+   position: relative;
+   width: calc(15vw + 8px);
+   height: calc(8vw + 8px);
+   background-image: linear-gradient(90deg, #1E00FF, #FF0061 12%, #E1FF00 24%, #00FF9E 36%, #1E00FF 48%, #FF0061 60%, #E1FF00 72%, #00FF9E 84%, #1E00FF 100%);
+   background-size: 200%;
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-transform: uppercase;
+   font-size: 3vw;
+   font-weight: bold;
+ }
+ .rainbow-button:before {
+   content: '';
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   border: 4px solid transparent;
+   background-clip: padding-box;
+   background-color: #191919;
+ }
+ .rainbow-button:after {
+   content: attr(alt);
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-image: linear-gradient(90deg, #1E00FF, #FF0061 12%, #E1FF00 24%, #00FF9E 36%, #1E00FF 48%, #FF0061 60%, #E1FF00 72%, #00FF9E 84%, #1E00FF 100%);
+   background-size: 200%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-clip: text;
+   -webkit-background-clip: text;
+ }
+ .rainbow-button:hover {
+   animation: slidebg 4s linear infinite;
+ }
+ 
+ .rainbow-button:hover:after {
+   animation: slidebg 4s linear infinite reverse;
+   color: transparent;
+ }
+ 
+ @keyframes slidebg {
+   to {
+     background-position-x: 200%;
+   }
+ }
 .why {
   padding-bottom: 30px;
 }
