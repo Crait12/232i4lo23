@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>LowkeyPanel - Security: PIN CODE</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="robots" content="index,follow">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="audience" content="all">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://LowkeyPanel.me" />
+	<meta property="og:locale" content="en-US" />
+	<meta property="og:site_name" content="LowkeyPanel - Security: PIN Code"> 
+   	<meta property="og:title" content="LowkeyPanel - Security: PIN Code"> 
+   	<meta name="twitter:image" content="https://lowkeypanel.me/img/lowkeyhubcli.png"> 
+    	<meta property="og:image" content="https://lowkeypanel.me/logo.png"> 
+	<link rel="icon" type="image/png" href="https://lowkeypanel.me/logo.png">
+        <link rel="shortcut icon" href="https://lowkeypanel.me/logo.png" type="image/x-icon">
+   	<meta property="og:description" content="The required PINs to login to Lowkey CLI, which change every 6 seconds" />
+        <!-- mobile responsive meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="The required PINs to login to Lowkey CLI, which change every 6 seconds">
+    <!-- CSS
+    ============================================ -->
+    <link rel="stylesheet" href="login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+    
+</head>
+
+
+<body>
+ 
+  <div class="container">
+    
+  
+    <main>
+      <h1>Lowkey CLI - Security System --#<span class="cursor">|</span></h1>
+      <h3>PINCODE: <p id="pincode">wait 6 sec to start authentication pin codes</p></h3>
+      <h4>Changes every 10 seconds<br></h4><h4><br>--> Wait 6 seconds on the page to start</h4>
+    </main>
+  </div>
+  
+ 
+  
+  
+  </div>
+  <script src="login.js"></script>
+  
+          
+          
+          <script type="text/javascript">
+          
+              var text = ["1243", "4852", "2494","2413", "2583", "1342","1455", "8674" ,"4757" , "9999" , "8888"];
+              var counter = 0;
+              var elem = document.getElementById("pincode");
+              var inst = setInterval(change, 6000);
+              
+              function change() {
+                elem.innerHTML = text[counter];
+                counter++;
+                if (counter >= text.length) {
+                  counter = 0;
+                  // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+                }
+              }
+            
+              
+          </script>
+</body>
