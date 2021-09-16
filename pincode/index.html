@@ -52,14 +52,32 @@
           
           
           <script type="text/javascript">
-          
-              var text = ["1243", "4852", "2494","2413", "2583", "1342","1455", "8674" ,"4757" , "9999" , "8888"];
+              function randNumStr(length)
+              {
+                //Get all numbers
+                const numbers = "1234567890";
+                //Choose a random one and repeat according to 'length'
+                //(the reason why I store in an array before putting in a string is because for some reason putting it in a string as it goes makes it have a behaviour that is no longer completely random)
+                var resultArray = [];
+                for(var i = 0; i < length; i++)
+                {
+                  var choice = parseInt(Math.random()*numbers.length);
+                  resultArray.push(numbers[choice]);
+                }
+                //Put the array as a string
+                var result = "";
+                for(var i = 0; i < resultArray.length; i++) //Changed 'result' to 'resultArray'
+                  result+=resultArray[i];
+                //Return
+                return result;
+              }
+              var text = randNumStr(4);
               var counter = 0;
               var elem = document.getElementById("pincode");
               var inst = setInterval(change, 6000);
               
               function change() {
-                elem.innerHTML = text[counter];
+                elem.innerHTML = randNumStr(4)
                 counter++;
                 if (counter >= text.length) {
                   counter = 0;
