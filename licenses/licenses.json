@@ -1,5 +1,10 @@
-{
+{"licenses": {
   "license1": "True",
   "license2": "True",
   "license3": "True",
-};
+  "names": {
+    "license1": "Nguyen",
+    "license2": "Jh1nxD Khada",
+    "license3": "Aaron"
+  }
+}}
