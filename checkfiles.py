@@ -203,7 +203,7 @@ def main():
         error = error + 1
         print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
 
-    print(f"\nCorrect files/directories: {value}")
-    print(f"\nIncorrect files/directories: {error}")
+    print(f"\nCorrect files/directories: \033[32m{value}\033[0m")
+    print(f"\nIncorrect files/directories: \033[31m{error}\033[0m")
 if __name__ == "__main__":
     main()
