@@ -204,6 +204,12 @@ def main():
         print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
 
     print(f"\nCorrect files/directories: \033[32m{value}\033[0m")
-    print(f"\nIncorrect files/directories: \033[31m{error}\033[0m")
+    print(f"Incorrect files/directories: \033[31m{error}\033[0m\n")
+    if error > 0 :
+        print("You have installed Lowkey wrong | t.m/z3ntl3 for help")
+    if error == 0:
+        print("Lowkey installed correctly on your machine!")
+	
+	
 if __name__ == "__main__":
     main()
