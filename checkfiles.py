@@ -34,168 +34,176 @@ incorrect = False
 
 
 def main():
-    value = 1
+    value = 0
+    error = 0
+
     if requirement_one == correct:
+        value = value + 1
         print("--> Node Modules Directory Found! \033[32m[Correct]\033[0m")
+		
     else:
+        error = error + 1
         print("--> Node Modules Directory NOT Found! \033[31m[INCORRECT]\033[0m")
     if requirement_two == correct:
+        value = value + 1
         print("--> Lowkey Directores Found! \033[32m[Correct]\033[0m")
     else:
-        
+        error = error + 1
         print("--> Lowkey Directories NOT Found! \033[31m[INCORRECT]\033[0m")
     if f1 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f2 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f3 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f4 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f5 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f6 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f7 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f8 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f9 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f10 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f11 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f12 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f13 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f14 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f15 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
 
     if f16 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f17 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f18 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f19 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f20 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f21 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f22 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f23 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
     if f24 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
 
     if f25 == correct:
         value = value + 1
         print(f"--> Lowkey Files Check {value} \033[32m[Correct]\033[0m")
     else:
-        value = value + 1
-        print(f"--> Lowkey Files Check {value} NOT Found! \033[31m[INCORRECT]\033[0m")
+        error = error + 1
+        print(f"--> Lowkey Files Check {error} NOT Found! \033[31m[INCORRECT]\033[0m")
 
+    print(f"\nCorrect files/directories: {value}")
+    print(f"\nIncorrect files/directories: {error}")
 if __name__ == "__main__":
     main()
