@@ -34,7 +34,7 @@ incorrect = False
 
 
 def main():
-    value = 0
+    value = 1
     if requirement_one == correct:
         print("--> Node Modules Directory Found! \033[32m[Correct]\033[0m")
     else:
